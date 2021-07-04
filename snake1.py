@@ -1,4 +1,4 @@
-# Snake Tutorial Python
+# Snake_game Python
 import winsound
 import math
 import random
