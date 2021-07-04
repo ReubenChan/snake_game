@@ -122,7 +122,7 @@ class snake(object):
 
         # snake eating cube sound
         sound = pygame.mixer.Sound(
-            r"pythonProject1\snake_game\1_snake_game_resources_ding.mp3")
+            r"pythonProject1\snake_game\ding.mp3")
         pygame.mixer.Sound.play(sound)
 
     def draw(self, surface):
@@ -213,7 +213,7 @@ def main():
                 message_box('You Lost!', 'Play again...')
                 # Snake collision sound after pressing ok button
                 sound = pygame.mixer.Sound(
-                    r"pythonProject1\snake_game\1_snake_game_resources_crash.mp3")
+                    r"pythonProject1\snake_game\crash.mp3")
                 pygame.mixer.Sound.play(sound)
                 s.reset((10, 10))
 
